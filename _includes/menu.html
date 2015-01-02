@@ -1,0 +1,27 @@
+        <nav class="col-md-5 col-xs-12" id="nav-menu">
+        {% if page.lang == 'pl' %} 
+          <ul>
+            <li {% if page.url  == '/biografia.html'   %} class="active" {% endif %}><a class="round" href="/biografia">Biografia</a></li>
+            <li {% if page.url  == '/repertuar.html'   %} class="active" {% endif %}><a class="round" href="/repertuar">Repertuar</a></li>
+            <li {% if page.url  == '/galeria.html'     %} class="active" {% endif %}><a class="round" href="/galeria"  >Galeria</a></li>
+            <li {% if page.url  == '/singet.html'      %} class="active" {% endif %}><a class="round" href="/singet"   >Singet</a></li>
+          </ul>       
+        {% else %}
+          <ul>
+            <li {% if page.url  == '/biography.html'   %} class="active" {% endif %}><a class="round" href="/biography"  >Biography</a></li>
+            <li {% if page.url  == '/repertoire.html'  %} class="active" {% endif %}><a class="round" href="/repertoire" >Repertoire</a></li>
+            <li {% if page.url  == '/gallery.html'     %} class="active" {% endif %}><a class="round" href="/gallery"    >Gallery</a></li>
+            <li {% if page.url  == '/singet-band.html' %} class="active" {% endif %}><a class="round" href="/singet-band">Singet</a></li>
+          </ul> 
+        {% endif %}       
+        </nav>
+        <nav class="col-md-1 col-xs-12" id="nav-lang" >
+          <ul>
+            {% if page.lang == 'pl' %} 
+            <li><a href="/en">EN</a></li>
+            {% else %}
+            <li><a href="/">PL</a></li>
+            {% endif %} 
+          </ul>
+        </nav>    
+    

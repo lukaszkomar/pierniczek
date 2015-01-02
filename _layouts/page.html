@@ -1,0 +1,34 @@
+{% include header.html %}
+<!-- header -->
+    
+    <header class="container">    								      
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="logo"><a href="/">pierniczek</a></h1>
+        </div>
+      </div>
+      <div class="row">
+{% include menu.html %}        
+      </div>
+    </header>
+
+<!-- content -->
+
+    <div class="container" id="content">   
+      <div class="row">
+        <div class="col-md-6 content">
+{{ content }}
+        </div>
+      </div>
+    </div>
+    
+<!-- footer -->
+
+
+<!-- js -->
+
+    <script src="p/js/bootstrap.min.js"></script>
+    <script src="p/js/jquery-1.11.0.min.js"></script>
+    <script src="p/js/lightbox.min.js"></script>
+
+{% include footer.html %}
