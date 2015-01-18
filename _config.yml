@@ -25,6 +25,12 @@ permalink: /:title/
 
 # Struktura galerii
 posts:
+  "wpis1":
+    "img": "p/a.jpg"
+    "date": "1 Stycznia 2015"
+    "title": "Tytul stycznia"
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus semper felis, quis tincidunt orci molestie vel. Integer eu elit sit amet massa facilisis pharetra."
+    
   "wpis2":
     "img": "p/a.jpg"
     "date": "2 Listopada 2014"
