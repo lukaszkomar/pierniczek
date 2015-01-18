@@ -60,19 +60,26 @@
         </article>  
       {% endfor %}        
       
-    <div class="container border">
-
-      <p>Latest posts:</p>
-
       {% for post in site.posts %}
-      <div class="border">
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <p>{{ post.excerpt }}</p>
-        <p>xxx{{ post.xxx }}</p>
-      </div>
+        <article class='col-sm-4'>
+          <div class='maswrap'>
+            <header>      
+              <img width="512" height="320" src="p/a.jpg" class="attachment-masonry wp-post-image" alt="1" />
+            </header>
+            <a class='masheader' href='{{ post.url }}'>
+              <h2>{{ post.title }}</h2>
+            </a>
+            <span class='date font-2'>{{ post.date }}</span>
+            <div class='post-content'>
+              <p>{{ post.excerpt }}</p>
+            </div>
+            <a class='read-more right font-1' href='{{ post.url }}'><i class='color-1 fa fa-angle-double-right'></i>WIĘCEJ</a>
+            <div class='clearfix'></div>
+          </div>
+        </article>      
       {% endfor %}
 
-    </div>        
+    
     
       </div>
       <div class="clearfix"></div>
