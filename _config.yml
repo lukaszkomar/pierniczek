@@ -24,7 +24,7 @@ timezone: Europe/Warsaw
 permalink: /:title/
 
 # Struktura galerii
-posts:
+xposts:
   "wpis1":
     "img": "p/a.jpg"
     "date": "1 Stycznia 2015"
