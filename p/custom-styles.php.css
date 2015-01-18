@@ -1,0 +1,250 @@
+/* =Fonts
+-------------------------------------------------------------- */
+ 
+  
+
+
+h1, h2, h3, h4, h5, h6, h7, h8,
+.color-1, .hover-1:hover, .hover-1:focus,
+ul.site-navigation li a,
+header.site-header .site-navigation li .sub-menu li .sub-menu li .sub-menu li:hover .sub-menu li,
+header.site-header .site-navigation li .children li .children li .children li:hover .children li,
+header.site-header.defaultstyle div.site-tagline,
+header.site-header.defaultstyle .site-navigation ul.sub-menu > li.menu-item a:hover,
+header.site-header.defaultstyle .site-navigation ul.children > li.page_item a:hover,
+header.site-header.defaultstyle .site-navigation > li.menu-item a:hover,
+header.site-header.defaultstyle .site-navigation ul > li.page_item a:hover,
+ul#top-bar li.widget_anpssocial .social li a:hover,
+.navbar-toggle, button.fa.fa-search,
+.widget_calendar table#wp-calendar tfoot td a:hover
+ {
+    color: #000000;
+ }
+
+h1 {
+     color: #000;
+}
+h2 {
+     color: #000;
+}
+h3 {
+     color: #000;
+}
+h4 {
+     color: #000;
+}
+h5 {
+     color: #000;
+}
+
+.color-2, .hover-2:hover, .hover-2:focus,
+header.site-header.defaultstyle div#headwrap nav.navbar,
+header.site-header.defaultstyle  .site-navigation li a,
+.defaultstyle .navbar-toggle, .defaultstyle button.fa.fa-search,
+.site-search ::-webkit-input-placeholder, .site-search  :-moz-placeholder, .site-search ::-moz-placeholder, .site-search :-ms-input-placeholder,
+.site-search input[type="text"],
+.site-search .close:hover,
+.widget_tag_cloud div.tagcloud a,
+.widget_calendar table#wp-calendar caption,
+.widget_calendar table#wp-calendar td a,
+a.btn, input#submit,
+footer .copyright h1, footer .copyright h2, footer .copyright h3, footer .copyright h4, footer .copyright h5, footer .copyright h6, footer .copyright h7, footer .copyright h8,
+footer .copyright,
+footer .copyright a#totop,
+footer .copyright ul.social li a,
+.comment-reply-link,
+section.showmore a.show-more,
+section.subheader article div.absolute a.title h2,
+section.subheader article div.absolute div.author-link
+.wpcf7-submit,
+section.subheader article div.absolute a.title:hover h2
+{
+  color:#ffffff;
+}
+
+.color-link, .hover-link:hover, .hover-link:focus,
+a,
+header.site-header .site-navigation > li.menu-item.current-menu-item > a,
+header.site-header .site-navigation ul > li.page_item.current_page_item > a,
+header.site-header .site-navigation .sub-menu li:hover > a,
+header.site-header .site-navigation .children li:hover > a,
+header.site-header.defaultstyle .site-navigation li ul li:hover > a,
+header.site-header.defaultstyle .site-navigation ul.sub-menu > li.menu-item a:hover,
+header.site-header.defaultstyle .site-navigation ul.children > li.page_item a:hover,
+div.tags a:hover,
+footer .copyright ul.social li a:hover,
+.post-entry ol.number li,
+.post-entry ul.checkmark li:before,article ul li:before, article ul.checkmark li:before,
+.widget_calendar table#wp-calendar tfoot td a,
+.widget_nav_menu li a:hover,
+div.page-numbers-wrapper li > a:hover,
+.post-entry ul li:before, article ul li:before, .thecontent ul li:before,
+section.subheader article div.absolute a.title:hover h2, section.subheader article div.absolute a.title h2:hover,
+a.masheader h2:hover
+{
+  color:#e6ae48;
+}
+
+.navbar-header.notdesktop button {
+    color: #fff!important;
+}
+
+
+
+/*backgrounds*/
+
+.background-1, .bg-hover-1,
+div.site-wrapper header.site-header.defaultstyle div.row,
+.site-search,
+.widget_tag_cloud div.tagcloud a:hover,
+.widget_calendar table#wp-calendar td a:hover,
+input#submit:hover,
+footer .copyright,
+footer .copyright #footertotop,
+section.showmore a.show-more:hover,
+.wpcf7-submit:hover,
+.searchform button[type="submit"],
+
+{
+  background:#000000;
+}
+
+@media (max-width: 766px){
+header.site-header .site-navigation li .sub-menu li, 
+header.site-header .site-navigation li .children li,
+header.site-header .site-navigation li:hover li
+    {
+     background:#000000;   
+    }
+}
+
+
+section.subheader article:hover div.absolute, section.subheader article.hover div.absolute,
+, section.subheader .anps-post-slider-mobile article div.absolute {
+    background: rgba(0,0,0, 0.8);
+}
+
+
+/*body.archive section:nth-child(even), .home.blog section:nth-child(even), */
+.background-2,
+header.site-header .site-navigation li:hover .sub-menu,
+header.site-header .site-navigation li:hover .children,
+header.site-header .site-navigation li .sub-menu li:hover .sub-menu, header.site-header .site-navigation li .sub-menu li .sub-menu li:hover .sub-menu, header.site-header .site-navigation li .sub-menu li .sub-menu li .sub-menu li:hover .sub-menu,
+header.site-header .site-navigation li .children li:hover .children, header.site-header .site-navigation li .children li .children li:hover .children, header.site-header .site-navigation li .children li .children li .children li:hover .children,
+header.site-header.style-1 .row.fixed,
+header.site-header.defaultstyle .site-navigation > li.menu-item a:hover,
+header.site-header.defaultstyle .site-navigation > li.page_item a:hover,
+body.archive section.showmore, body.home.blog section.showmore,
+article.masonry .maswrap, article .maswrap
+{
+  background:#ffffff;
+}
+
+.background-link, .bg-link-hover:hover, .bg-link-hover:focus, 
+.widget_tag_cloud div.tagcloud a,
+.widget_calendar table#wp-calendar caption,
+.widget_calendar table#wp-calendar td a,
+button.playButton svg circle,
+div.page-numbers-wrapper li > span.current{
+  background:#e6ae48;
+}
+
+div.maswrap:hover header .absolute.hover {
+    background: rgba(230,174,72, 0.8);
+}
+
+
+
+
+@media (max-width: 766px) {
+.navbar-header.notdesktop.stickytop, #headwrap nav.navbar.pull-left .navbar-header, #headwrap nav.navbar.pull-right .navbar-header   {
+background: #000;
+}
+}
+
+body, p,
+.wp-caption-text,
+div.tags a,
+.widget_categories ul li.cat-item:before,
+.widget_nav_menu li:before,
+.post-entry ol li:first-line, .post-entry ul li:first-line
+{
+color: #4f4f4f;
+}
+
+.color-neutral,
+section.similar-posts ul.similars .date,
+.maswrap span.date
+{
+color: #c1c1c1;
+}
+
+/*borders*/
+div.page-numbers-wrapper li > span.current {
+    border-color:#e6ae48;
+}
+
+
+/*soundcloud responsiveness and ratio*/
+.featured .sound-container {
+    padding-bottom: 17%!important;
+}
+
+/*fonts*/
+h1, h2, h3, h4, h5, h6, h7, h8,
+.font-1,
+.site-tagline,
+header.site-header .site-navigation > li.menu-item a,
+header.site-header .site-navigation > li.page_item a,
+header.site-header.defaultstyle .site-navigation li a,
+.site-search input[type="text"],
+.widget_nav_menu li a,
+.widget_tag_cloud div.tagcloud a
+{
+font-family: Montserrat, sans-serif; 
+}
+
+.font-2, 
+body, p
+{
+   font-family: Old Standard TT, serif;
+}
+
+
+
+/*font-sizes */
+
+body {
+    font-size: 16px;
+}
+h1 {
+    font-size: 36px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 24px;
+}
+h4 {
+    font-size: 14px;
+}
+h5 {
+    font-size: 12px;
+}
+
+h1.entry-title.cattitle {
+    font-size: 21px;
+}
+
+h1.entry-title {
+    font-size: 30px;
+}
+
+header.site-header .site-navigation > li.menu-item a  {
+    font-size: 12px;
+}
+
+header.site-header.defaultstyle div.site-tagline {
+     font-size: 14px;  
+}
