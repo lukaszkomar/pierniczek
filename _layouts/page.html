@@ -31,7 +31,7 @@
             <header>      
               <img width="512" height="320" src="p/a.jpg" class="attachment-masonry wp-post-image" alt="1" />
             </header>
-            <a class='masheader' href='#'><h2>TYTUL wpisu</h2></a>
+            <a class='masheader' href='#'><h2>TYTUL wpisu X</h2></a>
             <span class='date font-2'>2 Listopada 2014</span>
             <div class='post-content'>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus semper felis, quis tincidunt orci molestie vel. Integer eu elit sit amet massa facilisis pharetra. </p>
@@ -41,7 +41,10 @@
           </div>
         </article>
         
-      {% for xpost in site.xposts %}   
+      {% for xpost in site.xposts %}
+      #{{ xpost }}
+      #{{ xpost.title }}
+      #{{ xpost[1][title] }}
         <article class='col-sm-4'>
           <div class='maswrap'>
             <header>      
